@@ -10,12 +10,15 @@ public class Man {
                 System.out.println("Вам понравилось это число?");
 
                 String a = scanner.nextLine();
-                if (a == "yes")
+                if (a == "yes"){
                         System.out.println("отлично");
-                else if (a == "нет")
+                }
+                else if (a == "нет"){
                         System.out.println("печально");
-                else
+                }
+                else{
                         System.out.println("Вы ввели: " + a);
-                System.out.println("разговаривать научись мудень");
-        }
+                System.out.println("Данный ответ неправилен");
+                }
+                }
 }
